@@ -16,3 +16,4 @@ crash.log
 *.auto.tfvars.json
 backend.json
 .idea
+*.out
