@@ -1,0 +1,18 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+*.tfvars.json
+
+# Crash log files
+crash.log
+
+.terraform.lock.hcl
+
+
+*.auto.tfvars.json
+backend.json
+.idea
