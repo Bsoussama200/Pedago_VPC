@@ -37,8 +37,8 @@ resource "aws_subnet" "public" { # first name is public[0], second name is publi
     var.public_subnet_cidr_tags,
     {
         Name = "${local.resource_name}-public-${local.az_names[count.index]}",
-        "kubernetes.io/role/elb"                    = "1",
-        "kubernetes.io/cluster/pedago-prod-eks" = "owned"
+        "kubernetes.io/role/elb"                    = "1"
+        # "kubernetes.io/cluster/pedago-prod-eks" = "owned"
     }
   )
 }
