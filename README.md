@@ -27,13 +27,7 @@ This repository contains Terraform code to create the VPC infrastructure for the
    terraform init
    ```
 
-3. **Create a new environment**:
-   - Create a new Terraform workspace with the name of the environment (e.g., `dev`).
-   ```bash
-   terraform workspace new <env>
-   ```
-
-4. **Apply the Terraform code**:
+3. **Apply the Terraform code**:
    ```bash
    terraform apply
    ```
